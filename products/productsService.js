@@ -40,5 +40,5 @@ app.service('productsService', function() {
         color: 'Green',
         size: 'L'
       },
-    ]
+    ];
 }

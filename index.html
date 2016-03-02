@@ -7,6 +7,25 @@
     <link rel="stylesheet" type="text/css" href="style.css"</link>
   </head>
   <body>
+    <div class="menu">
+      <ul>
+        <li><a ui-sref="home">Home</a></li>
+        <li>
+          Products
+          <ul>
+            <li><a ui-sref="products({id:'shoes'})">Shoes</a></li>
+            <li><a ui-sref="products({id:'socks'})">Socks</a></li>
+          </ul>
+        </li>
+        <li><a ui-sref="settings"> Settings </a></li>
+      </ul>
+    </div>
+
+    <div class="view-container">
+      <div ui-view></div>
+    </div>
+
+
 
 
 

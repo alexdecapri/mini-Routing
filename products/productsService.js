@@ -41,4 +41,4 @@ app.service('productsService', function() {
         size: 'L'
       },
     ];
-}
+});

@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="style.css"</link>
   </head>
-  <body>
+  <body ng-controller="home">
     <div class="menu">
       <ul>
         <li><a ui-sref="home">Home</a></li>
@@ -21,6 +21,8 @@
       </ul>
     </div>
 
+    {{test}}
+
     <div class="view-container">
       <div ui-view></div>
     </div>
@@ -32,5 +34,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
     <script src="js/app.js"></script>
+    <script src="home/homeCtrl.js"></script>
+    <script src="settings/settingsCtrl.js"></script>
+    <script src="products/productsCtrl.js"></script>
+    <script src="products/productsService.js"></script>
   </body>
 </html>

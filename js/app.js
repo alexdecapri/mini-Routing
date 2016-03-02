@@ -5,17 +5,17 @@ app.config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state("home", {
       url: "/",
-      templateUrl: "js/home/homeTmpl.html",
+      templateUrl: "home/homeTmpl.html",
       controller: "homeCtrl"
     })
     .state("settings", {
       url: "/settings",
-      templateUrl: "js/settings/settingsTmpl.html",
+      templateUrl: "settings/settingsTmpl.html",
       controller: "settingsCtrl"
     })
     .state("products", {
       url: "/products/:id",
-      templateUrl: "js/products/productsTmpl.html",
+      templateUrl: "products/productsTmpl.html",
       controller: "productsCtrl"
     });
 
